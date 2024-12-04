@@ -1,11 +1,11 @@
 public class ForestExplorer {
-    private static final int GRID_SIZE = 8;
-    private static final int TOTAL_MOVES = 63;
+    private static final int GRID_SIZE = 3;
+    private static final int TOTAL_MOVES = 8;
     private static boolean[][] visited = new boolean[GRID_SIZE][GRID_SIZE];
     private static int totalPaths = 0;
 
     public static void main(String[] args) {
-        String input = "***************************************************************";
+        String input = "********";
 
         // Validate input
         if (input.length() != TOTAL_MOVES || !input.matches("[UDLR*]+")) {
@@ -23,8 +23,12 @@ public class ForestExplorer {
     }
 
     private static void explorePaths(String path, int row, int col, int moveIndex) {
+        System.out.println("Exploring: row=" + row + ", col=" + col + ", moveIndex=" + moveIndex);
         if (moveIndex == TOTAL_MOVES) {
-            if (row == 7 && col == 0) totalPaths++;
+            if (row == 2 && col == 0) {
+                System.out.println("_______________THE RESULT IS: row=" + row + ", col=" + col + ", moveIndex=" + moveIndex);
+                totalPaths++;
+            }
             return;
         }
 
@@ -48,11 +52,12 @@ public class ForestExplorer {
             case 'R': newCol++; break;
         }
 
+        System.out.println("Trying move: " + direction + " to row=" + newRow + ", col=" + newCol);
+
         if (newRow >= 0 && newRow < GRID_SIZE && newCol >= 0 && newCol < GRID_SIZE && !visited[newRow][newCol]) {
             visited[newRow][newCol] = true;
             explorePaths(path, newRow, newCol, moveIndex + 1);
             visited[newRow][newCol] = false;  // Backtrack
         }
     }
-
 }
