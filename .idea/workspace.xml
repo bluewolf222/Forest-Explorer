@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf6069a-38d3-4730-9ad9-31b9599ac251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ForestExplorerDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForestExplorerDFSVer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForestExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForestExplorerDFSVer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorerDFSVer3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
     "Application.ForestExplorer.executor": "Run",
     "Application.ForestExplorerDFS.executor": "Run",
     "Application.ForestExplorerDFSVer2.executor": "Run",
+    "Application.ForestExplorerDFSVer3.executor": "Run",
     "Application.ForestExplorerVer2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733296093431</updated>
       <workItem from="1733296094346" duration="1275000" />
-      <workItem from="1733298643210" duration="12912000" />
+      <workItem from="1733298643210" duration="14283000" />
     </task>
     <servers />
   </component>
