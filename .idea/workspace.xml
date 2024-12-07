@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbf6069a-38d3-4730-9ad9-31b9599ac251" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForestExplorerVer7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HamiltonianPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ver8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForestExplorerDFSVer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorerDFSVer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForestExplorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForestExplorerDFSVer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorerDFSVer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForestExplorerVer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForestExplorerVer2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +49,15 @@
     "Application.ForestExplorerDFSVer2.executor": "Run",
     "Application.ForestExplorerDFSVer3.executor": "Run",
     "Application.ForestExplorerVer2.executor": "Run",
+    "Application.ForestExplorerVer3.executor": "Run",
+    "Application.ForestExplorerVer4.executor": "Run",
+    "Application.ForestExplorerVer5.executor": "Run",
+    "Application.ForestExplorerVer6.executor": "Run",
+    "Application.ForestExplorerVer7.executor": "Run",
+    "Application.HamiltonianPath.executor": "Run",
+    "Application.Ver8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -68,7 +86,10 @@
       <option name="presentableId" value="Default" />
       <updated>1733296093431</updated>
       <workItem from="1733296094346" duration="1275000" />
-      <workItem from="1733298643210" duration="14283000" />
+      <workItem from="1733298643210" duration="18345000" />
+      <workItem from="1733410666042" duration="8333000" />
+      <workItem from="1733456625886" duration="191000" />
+      <workItem from="1733478405463" duration="16247000" />
     </task>
     <servers />
   </component>

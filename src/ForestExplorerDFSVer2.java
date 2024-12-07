@@ -1,12 +1,12 @@
 import java.util.HashMap;
 
 public class ForestExplorerDFSVer2 {
-    private static final int GRID_SIZE = 8;  // 8x8 grid
+    private static final int GRID_SIZE = 3;  // 8x8 grid
     private static int totalPaths = 0;
     private static HashMap<String, Integer> memo = new HashMap<>();  // Memoization map
 
     public static void main(String[] args) {
-        String input = "***************************************************************";  // Input path, length 63
+        String input = "********";  // Input path, length 63
 
         long startTime = System.currentTimeMillis();
         dfs(input, 0, 0, 0, 1L);  // Start DFS from (0, 0) with only the starting cell visited
